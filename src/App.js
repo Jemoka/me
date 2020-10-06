@@ -19,7 +19,7 @@ function App() {
                     <FontAwesomeIcon onClick={()=>{window.location.href = "https://twitter.com/jemokajack"}} className="contact-icon contact-twitter" icon={faTwitter} />
                         <FontAwesomeIcon   onClick={()=>{window.location.href = "https://medium.com/@jemoka"}} className="contact-icon contact-medium" icon={faMedium} />
                             <FontAwesomeIcon onClick={()=>{window.location.href = "mailto:hliu@shabang.cf"}}  className="contact-icon contact-email" icon={faEnvelope} />
-                                <FontAwesomeIcon onClick={()=>{window.location.href = "https://anchor.com/yappin"}}   className="contact-icon contact-pod" icon={faRss} />
+                                <FontAwesomeIcon onClick={()=>{window.location.href = "https://anchor.fm/yappin"}}   className="contact-icon contact-pod" icon={faRss} />
                 </div>
         </div>
             <div style={{padding: 10, bottom: 5, left:5, position: "absolute", fontSize: 10}}>Under Construction. Obviously. <span style={{fontWeight: 400}}> 2020-2021 Houjun Liu.</span></div>
