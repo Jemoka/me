@@ -2,6 +2,7 @@ body, html {
     background-color: #f1f1f1;
    font-family: "Helvetica Neue","HelveticaNeue-Light", "Helvetica Neue Light",  Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 500;
+   overflow-y: hidden;
 }
 
 
