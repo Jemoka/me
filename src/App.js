@@ -22,7 +22,7 @@ function App() {
                     <FontAwesomeIcon  className="contact-icon contact-pod" icon={faRss} />
                 </div>
         </div>
-            <div style={{padding: 10, bottom: 5, left:5, position: "fixed"}}>Under Construction. Obviously. <span style={{fontWeight: 400}}> 2020-2021 Houjun Liu.</span></div>
+            <div style={{padding: 10, bottom: 5, left:5, position: "absolute", fontSize: 10}}>Under Construction. Obviously. <span style={{fontWeight: 400}}> 2020-2021 Houjun Liu.</span></div>
             </div>
     </div>
   );
