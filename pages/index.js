@@ -26,6 +26,10 @@ export default function Home() {
             Take a look at <a href="https://github.com/jemoka/">my GitHub profile note</a>, which will be more up to date than this website anyways...
             <br />
             <br />
+            <h1 className="text-xl font-bold">Blag</h1>
+            I recently started a <a href="https://blog.jemoka.com/">Blag</a>. Check it out!
+            <br />
+            <br />
             <h1 className="text-xl font-bold">Bugga Bugga Bontehu?</h1>
             Sometimes I use this domain as a downlink to <span className="code">fastcalculator</span> to friends and coworkers. To achieve this, here are two links you could click on that I don't always promise do anything: <a href="https://oliver.jemoka.com/">oliver</a> and <a href="https://socks.jemoka.com/">socks</a>.
         </div>
