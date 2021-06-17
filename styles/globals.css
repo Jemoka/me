@@ -24,3 +24,13 @@ a {
 .code {
     font-family: monospace;
 }
+
+::-moz-selection {
+  background: #EAEDAD;
+}
+::-webkit-selection {
+  background: #EAEDAD;
+}
+::selection {
+  background: #EAEDAD;
+}
