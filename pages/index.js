@@ -26,8 +26,8 @@ export default function Home() {
             Take a look at <a href="https://github.com/jemoka/">my GitHub profile note</a>, which will be more up to date than this website anyways...
             <br />
             <br />
-            <h1 className="mt-2 text-xl font-bold">Blag</h1>
-            I recently started a <a href="https://blog.jemoka.com/">Blag</a>. Check it out!
+            <h1 className="mt-2 text-xl font-bold">Sanity</h1>
+            Some friends and I started a small collection of fun internets that we made. <a href="https://www.sanity.gq">Check it out!</a>
             <br />
             <br />
             <h1 className="mt-2 text-xl font-bold">Bugga Bugga Bontehu?</h1>
