@@ -30,6 +30,10 @@ export default function Home() {
             Some friends and I started a small collection of fun internets that we made. <a href="https://www.sanity.gq">Check it out!</a>
             <br />
             <br />
+            <h1 className="mt-2 text-xl font-bold">How do I know you are you?</h1>
+	    Good question! <span className="code">gpg --keyserver pgp.mit.edu --recv-keys 1807A0C6</span> and verify with my work email.
+            <br />
+            <br />
             <h1 className="mt-2 text-xl font-bold">Bugga Bugga Bontehu?</h1>
             Sometimes I use this domain as a downlink to <span className="code">fastcalculator</span> to friends and coworkers. To achieve this, here are two links you could click on that I don't always promise do anything: <a href="https://oliver.jemoka.com/">oliver</a> and <a href="https://socks.jemoka.com/">socks</a>.
         </div>
