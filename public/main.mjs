@@ -144,7 +144,10 @@ function initSky() {
 initSky();
 let worldPromise = (async () => {
     const world = await new Promise((res, rej) => {
-        loader.load('models/FINAL1.glb', res, undefined, rej);
+        const dracoLoader = new DRACOLoader();
+        dracoLoader.setDecoderPath( 'models/draco/' );
+        loader.setDRACOLoader( dracoLoader );
+        loader.load('models/final_compressed.gltf', res, undefined, rej);
     });
     world.scene.scale.x = 1;
     world.scene.scale.y = 1;
@@ -155,7 +158,7 @@ let worldPromise = (async () => {
 })();
 
 const USER = window.localStorage.getItem('username') || prompt("What name would you like to comment with?", await fetch("https://random-word-api.herokuapp.com/word?number=2&swear=0").then(res => res.json()).then(x => x.join(' ')));
-window.localStorage.setItem('username', USER);
+//window.localStorage.setItem('username', USER);
 
 console.log("awaiting world...")
 const world = await worldPromise;
